@@ -4,12 +4,12 @@ package com.mycompany.ejertestparam;
 import java.util.List;
 import org.assertj.core.util.Arrays;
 import org.hamcrest.Matchers;
-import org.junit.Assert;
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+
+// Link GitHub:  https://github.com/vladip11/testParametrizados.git
 
 @RunWith(Parameterized.class)
 public class TrianguloTest {
@@ -38,3 +38,5 @@ public class TrianguloTest {
     }
     
 }
+
+// Link GitHub:  https://github.com/vladip11/testParametrizados.git

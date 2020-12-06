@@ -9,6 +9,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
+// Link GitHub:  https://github.com/vladip11/testParametrizados.git
+
 @RunWith(Parameterized.class)
 public class UtilidadesParamUnoTest {
 
@@ -35,3 +37,5 @@ public class UtilidadesParamUnoTest {
         assertEquals(v1 + v2, resultado);
     }
 }
+
+// Link GitHub:  https://github.com/vladip11/testParametrizados.git

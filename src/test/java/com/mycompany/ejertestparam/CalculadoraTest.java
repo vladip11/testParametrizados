@@ -1,6 +1,4 @@
-/*
-link github:  
- */
+
 package com.mycompany.ejertestparam;
 
 import junitparams.JUnitParamsRunner;
@@ -8,6 +6,8 @@ import org.hamcrest.Matchers;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.runner.RunWith;
+
+// Link GitHub:  https://github.com/vladip11/testParametrizados.git
 
 @RunWith(JUnitParamsRunner.class)
 public class CalculadoraTest {
@@ -43,3 +43,5 @@ public class CalculadoraTest {
     }
     
 }
+
+// Link GitHub:  https://github.com/vladip11/testParametrizados.git

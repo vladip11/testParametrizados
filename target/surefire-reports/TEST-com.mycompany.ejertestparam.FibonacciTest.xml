@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.ejertestparam.FibonacciTest" time="0.009" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.ejertestparam.FibonacciTest" time="0.696" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
     <property name="java.vm.version" value="25.251-b08"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="E:\COM470\tarea_3\ejerTestParam - tarea"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\COM470\tarea_3\tarea3_testParametrizados"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,8 +15,9 @@
     <property name="user.country" value="MX"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="com.mycompany.ejertestparam.FibonacciTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="E:\COM470\tarea_3\ejerTestParam - tarea"/>
+    <property name="user.dir" value="E:\COM470\tarea_3\tarea3_testParametrizados"/>
     <property name="java.runtime.version" value="1.8.0_251-b08"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
@@ -34,7 +35,6 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="skipTests" value="false"/>
     <property name="os.version" value="10.0"/>
     <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\CAB COMPUTERS"/>
@@ -47,7 +47,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -DskipTests=false -Dmaven.ext.class.path=C:\Program Files\NetBeans Dev 201804200002\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 clean verify"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.mycompany.ejertestparam.FibonacciTest -Dmaven.ext.class.path=C:\Program Files\NetBeans Dev 201804200002\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="es"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -64,8 +64,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testFibonacciMethod[0]" classname="com.mycompany.ejertestparam.FibonacciTest" time="0.001"/>
-  <testcase name="testFibonacciMethod[1]" classname="com.mycompany.ejertestparam.FibonacciTest" time="0"/>
-  <testcase name="testFibonacciMethod[2]" classname="com.mycompany.ejertestparam.FibonacciTest" time="0.007"/>
-  <testcase name="testFibonacciMethod[3]" classname="com.mycompany.ejertestparam.FibonacciTest" time="0"/>
+  <testcase name="testFibonacciMethod[0]" classname="com.mycompany.ejertestparam.FibonacciTest" time="0.007"/>
+  <testcase name="testFibonacciMethod[1]" classname="com.mycompany.ejertestparam.FibonacciTest" time="0.001"/>
+  <testcase name="testFibonacciMethod[2]" classname="com.mycompany.ejertestparam.FibonacciTest" time="0.004"/>
+  <testcase name="testFibonacciMethod[3]" classname="com.mycompany.ejertestparam.FibonacciTest" time="0.001"/>
 </testsuite>

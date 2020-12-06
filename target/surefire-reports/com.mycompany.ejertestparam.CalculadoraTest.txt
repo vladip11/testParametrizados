@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.mycompany.ejertestparam.CalculadoraTest
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.034 sec - in com.mycompany.ejertestparam.CalculadoraTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.498 sec - in com.mycompany.ejertestparam.CalculadoraTest

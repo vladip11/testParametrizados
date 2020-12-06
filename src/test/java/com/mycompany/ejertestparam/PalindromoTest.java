@@ -12,6 +12,8 @@ import static org.junit.Assert.*;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
+// Link GitHub:  https://github.com/vladip11/testParametrizados.git
+
 @RunWith(Parameterized.class)
 public class PalindromoTest {
     
@@ -37,3 +39,5 @@ public class PalindromoTest {
     }
     
 }
+
+// Link GitHub:  https://github.com/vladip11/testParametrizados.git
